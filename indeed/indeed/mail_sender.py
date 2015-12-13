@@ -2,10 +2,10 @@ import smtplib
 
 
 def send_email(body):
-    mail_user = 'gbmobiledeveloper@gmail.com'
-    mail_pwd = 'gbmobiledeveloper'
-    _from = 'gbmobiledeveloper@gmail.com'
-    _to = 'fcopantoja@gmail.com'
+    mail_user = 'SECRET'
+    mail_pwd = 'SECRET'
+    _from = 'SECRET'
+    _to = 'SECRET'
     _subject = 'New Python jobs for you'
     _text = body
 
