@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'stack'
+BOT_NAME = 'indeed'
 
-SPIDER_MODULES = ['stack.spiders']
-NEWSPIDER_MODULE = 'stack.spiders'
+SPIDER_MODULES = ['indeed.spiders']
+NEWSPIDER_MODULE = 'indeed.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -65,12 +65,12 @@ DOWNLOAD_DELAY=5
 #    'stack.pipelines.SomePipeline': 300,
 #}
 
-ITEM_PIPELINES = ['stack.pipelines.MongoDBPipeline', ]
+#ITEM_PIPELINES = ['stack.pipelines.MongoDBPipeline', ]
 
-MONGODB_SERVER = "localhost"
-MONGODB_PORT = 27017
-MONGODB_DB = "stackoverflow"
-MONGODB_COLLECTION = "questions"
+#MONGODB_SERVER = "localhost"
+#MONGODB_PORT = 27017
+#MONGODB_DB = "stackoverflow"
+#MONGODB_COLLECTION = "questions"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

@@ -9,3 +9,8 @@ class StackItem(Item):
 class OCCItem(Item):
     title = Field()
     url = Field()
+
+
+class IndeedItem(Item):
+    title = Field()
+    url = Field()
